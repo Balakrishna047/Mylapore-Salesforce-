@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Status__c</fullName>
+    <label>Order Status</label>
+    <required>true</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value><fullName>PENDING_PAYMENT</fullName><default>true</default><label>PENDING_PAYMENT</label></value>
+            <value><fullName>PAID</fullName><default>false</default><label>PAID</label></value>
+            <value><fullName>CONFIRMED</fullName><default>false</default><label>CONFIRMED</label></value>
+            <value><fullName>ACCEPTED</fullName><default>false</default><label>ACCEPTED</label></value>
+            <value><fullName>PREPARING</fullName><default>false</default><label>PREPARING</label></value>
+            <value><fullName>READY</fullName><default>false</default><label>READY</label></value>
+            <value><fullName>OUT_FOR_DELIVERY</fullName><default>false</default><label>OUT_FOR_DELIVERY</label></value>
+            <value><fullName>DELIVERED</fullName><default>false</default><label>DELIVERED</label></value>
+            <value><fullName>COMPLETED</fullName><default>false</default><label>COMPLETED</label></value>
+            <value><fullName>CANCELLED</fullName><default>false</default><label>CANCELLED</label></value>
+            <value><fullName>REFUNDED</fullName><default>false</default><label>REFUNDED</label></value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

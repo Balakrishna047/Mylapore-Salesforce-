@@ -1,0 +1,21 @@
+{
+  "orgName": "Mylapore Express Service & Agentforce Dev Org",
+  "edition": "Developer",
+  "features": [
+    "ServiceCloud",
+    "Knowledge",
+    "Communities",
+    "OmniChannel"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "serviceCloudSettings": {
+      "enableServiceCloudConsole": true
+    },
+    "omniChannelSettings": {
+      "enableOmniChannel": true
+    }
+  }
+}
